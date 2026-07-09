@@ -46,3 +46,59 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+/*  Navbar End  */
+
+
+/* Hero Start */
+.hero-section{
+    
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(5,8,18,.95) 0%,
+            rgba(5,8,18,.75) 30%,
+            rgba(5,8,18,.45) 60%,
+            rgba(5,8,18,0) 100%
+        ),
+        url("./assets/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    
+}
+
+.hero-main{
+    height: 100vh;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.hero-section-first{
+    padding-top: 102px;
+}
+
+.hero-first{
+    font-size: 80px;
+    font-weight: semi-bold;
+}
+
+.hero-last{
+    padding-top: 15px;
+    max-width: 790px;
+    font-size: 22px;
+}
+
+.hero-section-end{
+    padding-bottom: 72px;
+}
+
+
+/* Hero End */
