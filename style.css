@@ -67,7 +67,7 @@
     background-position: center;
     background-repeat: no-repeat;
     max-width: 100%;
-    
+    margin-bottom: 42px;
 }
 
 .hero-main{
@@ -87,7 +87,7 @@
 
 .hero-first{
     font-size: 80px;
-    font-weight: semi-bold;
+    font-weight: 700;
 }
 
 .hero-last{
@@ -102,3 +102,59 @@
 
 
 /* Hero End */
+
+
+.speakers{
+    text-align: center;
+    margin-bottom: 42px;
+    font-size: 56px;
+    font-weight: bold;
+    color: #000102;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 23px;
+    gap: 12px;
+}
+
+.skills{
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.name{
+    color: #0D1B2A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sector{
+    color: #575757;
+    font-size: 14px;
+}
